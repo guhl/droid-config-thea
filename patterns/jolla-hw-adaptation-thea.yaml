@@ -16,10 +16,11 @@ Requires:
 - droid-config-thea-policy-settings
 - droid-config-thea-preinit-plugin
 - droid-config-thea-flashing
-- droid-config-thea-bluez4
+#- droid-config-thea-bluez4
 - droid-hal-version-thea
 
 - pulseaudio-modules-droid
+- pulseaudio-modules-droid-glue
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
@@ -40,6 +41,7 @@ Requires:
 - gstreamer1.0-plugins-base
 - gstreamer1.0-plugins-bad
 - nemo-gstreamer1.0-interfaces
+- gstreamer1.0-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -68,11 +70,11 @@ Requires:
 - jolla-settings-layout
 
 # For devices with working cellular modem:
-#- pattern:jolla-sailfish-cellular-apps
-#- telepathy-ring
+- pattern:jolla-sailfish-cellular-apps
+- telepathy-ring
 
 # For devices where test_gps eventually gets a fix:
-#- geoclue-provider-hybris
+- geoclue-provider-hybris
 
 Summary: Jolla HW Adaptation thea
 
