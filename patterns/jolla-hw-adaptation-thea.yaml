@@ -84,7 +84,6 @@ Requires:
 # For FM radio
 - qt5-qtmultimedia-plugin-mediaservice-irisradio
 - jolla-mediaplayer-radio
-- pulseaudio-policy-enforcement
 
 Summary: Jolla HW Adaptation thea
 
