@@ -75,6 +75,8 @@ Requires:
 
 # For devices where test_gps eventually gets a fix:
 - geoclue-provider-hybris
+# For Mozilla location services (online)
+- geoclue-provider-mlsdb
 
 # Flashlight
 - jolla-settings-system-flashlight
