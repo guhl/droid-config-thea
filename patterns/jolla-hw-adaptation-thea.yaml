@@ -76,5 +76,12 @@ Requires:
 # For devices where test_gps eventually gets a fix:
 - geoclue-provider-hybris
 
+# Flashlight
+- jolla-settings-system-flashlight
+
+# For FM radio
+- qt5-qtmultimedia-plugin-mediaservice-irisradio
+- jolla-mediaplayer-radio
+
 Summary: Jolla HW Adaptation thea
 
