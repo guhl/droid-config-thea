@@ -46,7 +46,9 @@ load-module module-bluez4-discover sco_sink=sink.fake.sco sco_source=source.fake
 
 load-module module-meego-mainvolume virtual_stream=true
 
-load-module module-policy-enforcement
+### changed to route_sources_first=true for FM-Radio
+#load-module module-policy-enforcement
+load-module module-policy-enforcement route_sources_first=true
 
 load-module module-role-ducking trigger_roles=alarm,notification,warning ducking_roles=x-maemo volume=-200dB
 
