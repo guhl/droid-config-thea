@@ -1,0 +1,11 @@
+[Unit]
+Description=Enable/Disable sensors on screen on/off
+Requires=dbus.service
+After=dbus.service
+
+[Service]
+Type=simple
+ExecStart=/bin/sh /usr/bin/droid/droid-sensor-enabler.sh
+
+[Install]
+WantedBy=multi-user.target
