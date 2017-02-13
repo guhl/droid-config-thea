@@ -85,5 +85,8 @@ Requires:
 - qt5-qtmultimedia-plugin-mediaservice-irisradio
 - jolla-mediaplayer-radio
 
+# For droid-camres hack
+- droid-camres
+
 Summary: Jolla HW Adaptation thea
 
