@@ -85,6 +85,9 @@ Requires:
 - qt5-qtmultimedia-plugin-mediaservice-irisradio
 - jolla-mediaplayer-radio
 
+# For mounting SD card automatically
+- sd-utils
+
 # For droid-camres hack
 - droid-camres
 
