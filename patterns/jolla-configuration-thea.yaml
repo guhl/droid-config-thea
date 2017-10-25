@@ -10,5 +10,15 @@ Requires:
 # Early stages of porting benefit from these:
 - pattern:sailfish-porter-tools
 
+# Introduced starting Sailfish OS 2.1.1.26
+# Required for Jolla Store Access
+- patterns-sailfish-consumer-generic
+
+# Non-trusted app installation support
+- jolla-settings-system-sideloading
+
+# For all keyboard layouts
+- jolla-keyboard-layout-all
+
 Summary: Jolla Configuration thea
 
