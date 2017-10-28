@@ -11,6 +11,7 @@ Requires:
 - droid-hal-thea
 - droid-hal-thea-img-boot
 - droid-hal-thea-kernel-modules
+- droid-hal-thea-detritus
 - droid-config-thea-sailfish
 - droid-config-thea-pulseaudio-settings
 - droid-config-thea-policy-settings
@@ -20,7 +21,9 @@ Requires:
 - droid-hal-version-thea
 
 - pulseaudio-modules-droid
+# Fix for calls
 - pulseaudio-modules-droid-glue
+
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
