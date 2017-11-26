@@ -33,7 +33,7 @@ Requires:
 
 - pulseaudio-modules-droid
 # Fix for calls
-#- pulseaudio-modules-droid-glue
+- pulseaudio-modules-droid-glue
 
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture

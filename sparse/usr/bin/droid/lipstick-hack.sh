@@ -9,4 +9,5 @@ sleep 5
 kill -9 $PID
 sleep 5
 touch /tmp/start_surfaceflinger
-killall minisfservice
+sleep 2
+killall -9 minisfservice
